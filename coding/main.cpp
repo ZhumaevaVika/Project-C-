@@ -15,7 +15,7 @@ int main(){
     sf::View view(sf::Vector2f(0.0f, 0.0f), sf::Vector2f(VIEW_HEIGHT, VIEW_HEIGHT));
 
     sf::Texture playerTexture;
-    playerTexture.loadFromFile("textures/penguin.png");
+    playerTexture.loadFromFile("../textures/penguin.png");
 
     // tecture sheet
     // sf::Vector2u textureSize = playerTexture.getSize();
